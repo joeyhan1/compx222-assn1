@@ -1,0 +1,15 @@
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+https://www.techtarget.com/searchsoftwarequality/definition/HTTPS
+https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+https://en.wikipedia.org/wiki/Client%E2%80%93server_model
+https://elearn.waikato.ac.nz/pluginfile.php/2706642/mod_resource/content/0/02a%20%20URLs%20and%20HTTP.pdf
+https://elearn.waikato.ac.nz/pluginfile.php/2706643/mod_resource/content/0/02b%20Forms.pdf
+https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests
+https://developer.mozilla.org/en-US/docs/Web/API/fetch
+https://www.w3schools.com/xml/xml_http.asp
+https://www.tutorialspoint.com/http/http_requests.htm
+https://moz.com/learn/seo/http-status-codes
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+https://www.w3schools.com/tags/ref_httpmethods.asp

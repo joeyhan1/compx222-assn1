@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>How is a web page downloaded?</title>
+  </head>
+  <body>
+    <!-- Top Horizontal Navigation Bar -->
+    <ul class="topnav">
+      <li><a href="../index.html">Home Page</a></li>
+      <li><a href="protocol.html">What is HTTP and HTTPS?</a></li>
+      <li><a href="#" class="active">How is a web page downloaded?</a></li>
+      <li><a href="request.html">What is a request?</a></li>
+      <li><a href="getandpost.html">When to use GET and POST?</a></li>
+    </ul>
+    <h1>How is a web page downloaded?</h1>
+    <!-- Grids -->
+    <div class="grid-container">
+      <!-- Different sizes of image depending on the screen size in one of the grid -->
+      <div class="image">
+          <picture>
+            <source media="(max-width: 375px)" srcset="../images/http_downloadedwebpage-phone.png">
+            <source media="(min-width: 2560px)" srcset="../images/http_downloadedwebpage-wide-pc.png">
+            <source media="(min-width: 1920px)" srcset="../images/http_downloadedwebpage-pc.png">
+            <img src="../images/http_downloadedwebpage.png" title="Example of a webpage network console requests" alt="Example of a webpage network console requests image">
+          </picture>
+          <p>This is a example of a webpage network console requests</p>
+      </div>
+      <!-- Text in one of the grid -->
+      <div class="text">
+        <h2>Types of request files</h2>
+        <!-- Bulleted List -->
+        <ul>
+          <li>Images – The blue highlighted ones are all the images.</li>
+          <li>Scripts – The yellow highlighted ones are all the JavaScript which the websites use. </li>
+          <li>XHR – The green highlighted ones are all the XHR. XHR is called XMLHttpRequest which is used to get or send data to a server and able to update webpages without restarting the whole page.</li>
+          <li>Fetch – The orange highlighted ones are fetch requests which are used to get resources from the network. In this case, it is fetching the system user id of the person who went on the site.</li>
+          <li>Stylesheet – The violet highlighted one is an external stylesheet. It is used to change how a website looks. The html is linked to the external stylesheet so that it can edit all the elements in the html.</li>
+          <li>Documentation – The black boxed one is the documentation file which has all the textual data on the website.</li>
+          <li>Font – The brown boxed one is the font file which is used for the fonts on the website.</li>
+          <li>Manifest – The grey boxed one is a JSON document. It is a document that contains all the defaults and start up stuff. It also contains meta data.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

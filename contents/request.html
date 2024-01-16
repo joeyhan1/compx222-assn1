@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style_request.css">
+    <title>What is a request?</title>
+  </head>
+  <body>
+    <!-- Top Horizontal Navigation Bar -->
+    <ul class="topnav">
+      <li><a href="../index.html">Home Page</a></li>
+      <li><a href="protocol.html">What is HTTP and HTTPS?</a></li>
+      <li><a href="downloadedwebpage.html">How is a web page downloaded?</a></li>
+      <li><a href="#" class="active">What is a request?</a></li>
+      <li><a href="getandpost.html">When to use GET and POST?</a></li>
+    </ul>
+		</nav>
+      <h1>What is a request?</h1>
+      <!-- Grids -->
+      <div class="grid-container">
+        <!-- Text in one of the grid -->
+        <div class="text">
+          <h2>HTTP Request</h2>
+          <p>A HTTP request is like a message. It is initiated by the user to the host of the server.</p>
+          <h2>HTTP request format:</h2>
+          <ul>
+            <li>Request line</li>
+            <li>Request headers</li>
+            <li>Empty line after request headers</li>
+            <li>Optional body message</li>
+          </ul>
+        </div>
+        <!-- Different sizes of image depending on the screen size in one of the grid -->
+        <div class="image">
+          <picture>
+            <source media="(max-width: 375px)" srcset="../images/http_request_phone.png"->
+            <source media="(min-width: 2560px)" srcset="../images/http_request_wide_pc.png">
+            <source media="(min-width: 1920px)" srcset="../images/http_request_pc.png">
+            <img src="../images/http_request.png" title="Example of http requests" alt="Example of http requests image. Credits: HTTP Header - Author: Seobility - License: CC BY-SA 4.0">
+          </picture>
+          <span style="font-family: monospace;">
+            <p><a href="https://www.seobility.net/en/wiki/HTTP_headers">HTTP Header </a>- Author: Seobility - License: <a href="https://www.seobility.net/en/wiki/Creative_Commons_License_BY-SA_4.0">CC BY-SA 4.0</a></p>
+          </span>
+        </div>
+        <!-- Table in one of the grid -->
+        <div class="request_table">
+          <h2>Types of requests</h2>
+          <table border="2">
+            <!-- table header -->
+            <thead>
+              <tr>
+                <th>Request Type</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <!-- table content -->
+            <tbody>
+              <!-- table row -->
+              <tr>
+                <td>GET</td>
+                <td>Used for getting data from the server.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>HEAD</td>
+                <td>Like GET except only the header and status line information is given.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>POST</td>
+                <td>Used for sending data to the server.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>PUT</td>
+                <td>Add new item verified by URL to the server.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>DELETE</td>
+                <td>Remove item verified by URL from the server.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>CONNECT</td>
+                <td>Used to make a two-way connection to server and the client.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>OPTIONS</td>
+                <td>Used to describe the options of communication for the resource being used.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>TRACE</td>
+                <td>Used to perform a message loop back test which tests the resource path. It is also used for debugging.</td>
+              </tr>
+            <!-- end of the table content -->
+            </tbody>
+          <!-- end of the table -->
+          </table>
+        </div>
+        <!-- Table in one of the grid -->
+        <div class="codes_table">
+          <h2>Types of Error Codes</h2>
+          <table border="2">
+            <!-- table header -->
+            <thead>
+              <tr>
+                <th>Error Code</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <!-- table content -->
+            <tbody>
+              <!-- table row -->
+              <tr>
+                <td>200</td>
+                <td>Ok - This means that the request worked.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>301</td>
+                <td>Permanent Redirecting – The URL of the resource has been moved permanently so you will be moved the new URL using the response given by the server.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>302</td>
+                <td>Temporary Redirecting – The URL of the resource has been moved temporarily.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>404</td>
+                <td>Not Found – This means that the server is not able to find the resource that was requested by the client.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>410</td>
+                <td>Gone – This means that the resource requested has been deleted from the server forever.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>500</td>
+                <td>Internal Server Error – This means that the server has an error that it is unable to solve.</td>
+              </tr>
+              <!-- table row -->
+              <tr>
+                <td>503</td>
+                <td>Service Unavailable – This means that the server is down or overloaded with requests that it cannot handle the request given by the client.</td>
+              </tr>
+            <!-- end of the table content -->
+            </tbody>
+          <!-- end of the table -->
+          </table>
+        </div>
+      </div>
+  </body>
+</html>
